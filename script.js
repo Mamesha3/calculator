@@ -24,7 +24,7 @@ function eachBtn() {
              let result = eval(input.value)
              input.value = Number(result.toFixed(3))
            } catch(err) {
-             input.value = `Error ${err.message}`
+             input.value = `Error`
            }
         }
     })
