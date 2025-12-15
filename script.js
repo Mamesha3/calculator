@@ -6,6 +6,12 @@ const clearBtn = document.querySelector('#allWipe')
 const equalBtn = document.querySelector('#equall-too')
 
 
+  // to get code click here
+document.querySelector('.code_sign').addEventListener('click',function () {
+      let code = document.querySelector('.code_here')
+      code.classList.toggle('showhere')
+})
+
 function eachBtn() {
   let valueInp = input.value
    
